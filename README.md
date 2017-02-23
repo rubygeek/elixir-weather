@@ -2,7 +2,7 @@
 
 Inpsiration Microservices in Phoenix: https://teamgaslight.com/blog/microservices-in-phoenix-part-1
 
-A [worker](/lib/elixir_weather/worker.ex) - is set to read the weather every hour from [WeatherUnderground](wunderground.com) and will use a [Phoenix Model](web/models/weather.ex) to save to a databse. The UI is simple for now, but will be improved.
+A [worker](/lib/elixir_weather/worker.ex) - is set to read the weather every hour from [WeatherUnderground](wunderground.com) and will use a [Phoenix Model](web/models/weather.ex) to save to a database. The UI is simple for now, but will be improved.
 
 Todo:
 
