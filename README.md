@@ -2,6 +2,18 @@
 
 Inpsiration Microservices in Phoenix: https://teamgaslight.com/blog/microservices-in-phoenix-part-1
 
+A [worker](/lib/elixir_weather/worker.ex) - is set to read the weather every hour from [WeatherUnderground](wunderground.com) and will use a [Phoenix Model](web/models/weather.ex) to save to a databse. The UI is simple for now, but will be improved.
+
+Todo:
+
+* get the forcast temp for each day
+* collect the high from the max of previous days temps
+* compare the results to see how accurate the forecast was
+
+Future Ideas:
+
+* find other weather apis or do screen scraping to see who has the most accurate weather forecast
+
 
 
 To start your Phoenix app:
@@ -13,12 +25,4 @@ To start your Phoenix app:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
